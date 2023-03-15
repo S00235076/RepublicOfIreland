@@ -1,0 +1,45 @@
+nav{
+    background-color: lightgrey;
+    padding:5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: lightgrey;
+    display:inline;
+    padding: 15px;
+} 
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+nav ul li:hover {background-color: lightgray}
+nav ul {
+    text-align :center;
+    font-size : 1.2em;
+
+}
+
+body {
+    background-color: lightgreen;
+    color: lightgrey;
+    opacity: 16.0;
+  }
+  body {
+   background-image: url("https://www.soccerbible.com/media/117102/ireland-1-min.jpg");
+  }
+  a:link, a:visited {
+    background-color: mediumseagreen;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
